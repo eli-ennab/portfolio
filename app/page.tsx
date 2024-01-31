@@ -1,3 +1,5 @@
+import { container } from "@/vanilla_extract/app.css";
+
 export default function Home() {
-  return <main>Testing the SSH</main>
+  return <main className={container}></main>
 }

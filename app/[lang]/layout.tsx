@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Providers from './providers'
+import ThemeSwitcher from './_components/ThemeSwitcher'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Developer Portfolio',
@@ -10,12 +10,18 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode
+  params: {
+    lang: string
+  }
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang={params.lang}>
+      <body>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   )
 }

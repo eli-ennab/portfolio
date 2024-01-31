@@ -1,3 +1,3 @@
 export default function Home() {
-  return <main>TESTING</main>
+  return <main>Testing the SSH</main>
 }

@@ -1,4 +1,5 @@
 import { Navigation } from './_components/Navigation'
+import { SideLinks } from './_components/SideLinks'
 
 const getLandingPageData = async (lang: any) => {
   const version = process.env.STORYBLOK_DATA_VERSION
@@ -19,8 +20,10 @@ export default async function Home({ params: { lang } }: any) {
   const data = await getLandingPageData(lang)
   return (
     <main>
-      <Navigation data={data?.navigation} />
-      <h2 className="dark:text-red-900">Hello world</h2>
+      <div className="frame dark:border-white">
+        <Navigation data={data?.navigation} />
+        <SideLinks />
+      </div>
     </main>
   )
 }

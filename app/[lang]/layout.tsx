@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Providers from './providers'
-import ThemeSwitcher from './_components/ThemeSwitcher'
 import './globals.css'
+import ThemeSwitcher from './_components/ThemeSwitcher'
 
 export const metadata: Metadata = {
   title: 'Developer Portfolio',
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang={params.lang}>
-      <body>
+      <body className="transition duration-700 ease-in-out">
         <Providers>{children}</Providers>
       </body>
     </html>

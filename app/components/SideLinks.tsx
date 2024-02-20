@@ -1,0 +1,58 @@
+'use client'
+import Link from 'next/link'
+
+export function SideLinks() {
+  return (
+    <div className="flex justify-left items-center h-80vh">
+      <h2 className="md:-rotate-90">projects</h2>
+      <div className="flex flex-col sm:text-xl md:text-7xl gap-6">
+        <div className="group">
+          <Link
+            href="https://fed22m-exjobb-eli-ennab.vercel.app/sv"
+            target="_blank"
+            className="road-link dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
+          >
+            nioosha shams
+          </Link>
+          <div className="info md:hidden group-hover:block">
+            <p className="text-base">
+              degree project integrated the headless cms Storyblok, TypeScript,
+              React, Next.js 14 and Vanilla Extract CSS
+            </p>
+          </div>
+        </div>
+        <div className="group">
+          <Link
+            href="https://damoviedatabase.netlify.app/"
+            target="_blank"
+            className="road-link dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
+          >
+            the movie database
+          </Link>
+          <div className="info md:hidden group-hover:block">
+            <p className="text-base">
+              assessment project fetching data from db database, made with love
+              and TypeScript, React, Axios, Bootstrap
+            </p>
+          </div>
+        </div>
+        <div className="group">
+          <Link
+            href="https://hangrymap.netlify.app/"
+            target="_blank"
+            className="road-link dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
+          >
+            hangry map
+          </Link>
+          <div className="info md:hidden group-hover:block">
+            <p className="text-base">
+              group assessment project using the Google Map API, with a solid
+              toolbox of TypeScript, React, Axios, Bootstrap, Firebase Auth,
+              Firebase Firestore
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

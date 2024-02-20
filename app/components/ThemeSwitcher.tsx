@@ -18,11 +18,11 @@ const ThemeSwitcher = () => {
   return (
     <div>
       {theme === 'dark' ? (
-        <button onClick={() => setTheme('light')} className="">
+        <button onClick={() => setTheme('light')}>
           <FaCircle className="text-2xl" />
         </button>
       ) : (
-        <button onClick={() => setTheme('dark')} className="">
+        <button onClick={() => setTheme('dark')}>
           <FaCircle className="text-2xl" />
         </button>
       )}

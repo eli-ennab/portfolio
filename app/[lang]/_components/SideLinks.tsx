@@ -9,7 +9,7 @@ export function SideLinks() {
           href="/sv"
           className="road-link dark:text-gray hover:dark:text-white"
         >
-          portfolio
+          text
         </Link>
         <Link
           href="/en"

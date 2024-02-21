@@ -4,7 +4,9 @@ import Link from 'next/link'
 export function SideLinks() {
   return (
     <div className="flex justify-left items-center">
-      <h2 className="-rotate-90">projects</h2>
+      <div className="flex justify-end w-14">
+        <h2 className="-rotate-90">projects</h2>
+      </div>
       <div className="flex flex-col sm:text-xl md:text-7xl gap-6">
         <div className="group">
           <Link

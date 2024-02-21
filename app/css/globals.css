@@ -12,7 +12,3 @@
         margin: 5vh;
     }
 } 
-
-.road-link:hover{
-    color: var(--orange-color);
-}

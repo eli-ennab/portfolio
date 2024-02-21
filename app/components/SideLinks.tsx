@@ -12,7 +12,7 @@ export function SideLinks() {
           <Link
             href="https://fed22m-exjobb-eli-ennab.vercel.app/sv"
             target="_blank"
-            className="road-link dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
+            className="hover:text-orange dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
           >
             nioosha shams
           </Link>
@@ -28,7 +28,7 @@ export function SideLinks() {
           <Link
             href="https://damoviedatabase.netlify.app/"
             target="_blank"
-            className="road-link hover:orange dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
+            className="hover:text-orange dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
           >
             the movie database
           </Link>
@@ -43,7 +43,7 @@ export function SideLinks() {
           <Link
             href="https://hangrymap.netlify.app/"
             target="_blank"
-            className="road-link dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
+            className="hover:text-orange dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
           >
             hangry map
           </Link>

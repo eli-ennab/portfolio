@@ -12,7 +12,18 @@ const config: Config = {
         black: '#212121',
         gray: '#979795',
         white: '#fcfffb',
-      }
+        orange: '#ff5733',
+      },
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      normal: '0',
+      wider: '.05em',
+      widest: '.25em',
+    },
+    fontFamily: {
+      main: 'Barlow, sans-serif',
+    }
     },
   },
   plugins: [],

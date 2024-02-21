@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 export function SideLinks() {
   return (
-    <div className="flex justify-left items-center h-80vh">
-      <h2 className="md:-rotate-90">projects</h2>
+    <div className="flex justify-left items-center">
+      <h2 className="-rotate-90">projects</h2>
       <div className="flex flex-col sm:text-xl md:text-7xl gap-6">
         <div className="group">
           <Link
@@ -16,8 +16,9 @@ export function SideLinks() {
           </Link>
           <div className="info md:hidden group-hover:block">
             <p className="text-base">
-              degree project integrated the headless cms Storyblok, TypeScript,
-              React, Next.js 14 and Vanilla Extract CSS
+              degree project and multilingual website integrated the headless
+              cms Storyblok, TypeScript, React, Next.js 14, Firebase Auth,
+              Firebase Firestore and Vanilla Extract CSS
             </p>
           </div>
         </div>
@@ -25,14 +26,14 @@ export function SideLinks() {
           <Link
             href="https://damoviedatabase.netlify.app/"
             target="_blank"
-            className="road-link dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
+            className="road-link hover:orange dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
           >
             the movie database
           </Link>
           <div className="info md:hidden group-hover:block">
             <p className="text-base">
-              assessment project fetching data from db database, made with love
-              and TypeScript, React, Axios, Bootstrap
+              assessment project fetching data from the TMDB database, written
+              in TypeScript and React using Axios and Bootstrap
             </p>
           </div>
         </div>

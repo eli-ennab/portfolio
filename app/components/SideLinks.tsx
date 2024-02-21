@@ -4,19 +4,21 @@ import Link from 'next/link'
 export function SideLinks() {
   return (
     <div className="flex justify-left items-center">
-      <div className="flex justify-end w-14">
-        <h2 className="-rotate-90">projects</h2>
+      <div className="flex justify-end w-20">
+        <h2 className="-rotate-90 tracking-widest text-2xl animate-pulse">
+          projects
+        </h2>
       </div>
-      <div className="flex flex-col sm:text-xl md:text-7xl gap-6">
-        <div className="group">
+      <div className="flex flex-col text-2xl md:text-7xl gap-6">
+        <div className="group lg:flex lg:flex-row">
           <Link
             href="https://fed22m-exjobb-eli-ennab.vercel.app/sv"
             target="_blank"
-            className="hover:text-orange dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
+            className="transition ease-in-out delay-150 hover:text-orange dark:text-gray group-hover:dark:text-white"
           >
             nioosha shams
           </Link>
-          <div className="info md:hidden group-hover:block">
+          <div className="md:hidden group-hover:block lg:ml-8">
             <p className="text-base">
               degree project and multilingual website integrated the headless
               cms Storyblok, TypeScript, React, Next.js 14, Firebase Auth,
@@ -24,30 +26,30 @@ export function SideLinks() {
             </p>
           </div>
         </div>
-        <div className="group">
+        <div className="group lg:flex lg:flex-row">
           <Link
             href="https://damoviedatabase.netlify.app/"
             target="_blank"
-            className="hover:text-orange dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
+            className="hover:text-orange dark:text-gray group-hover:dark:text-white"
           >
             the movie database
           </Link>
-          <div className="info md:hidden group-hover:block">
+          <div className="md:hidden group-hover:block lg:ml-8">
             <p className="text-base">
               assessment project fetching data from the TMDB database, written
               in TypeScript and React using Axios and Bootstrap
             </p>
           </div>
         </div>
-        <div className="group">
+        <div className="group lg:flex lg:flex-row">
           <Link
             href="https://hangrymap.netlify.app/"
             target="_blank"
-            className="hover:text-orange dark:text-gray group-hover:dark:text-white group-hover:-translate-y-1 group-hover:scale-110 ease-in-out duration-300"
+            className="hover:text-orange dark:text-gray group-hover:dark:text-white"
           >
             hangry map
           </Link>
-          <div className="info md:hidden group-hover:block">
+          <div className="md:hidden group-hover:block lg:ml-8">
             <p className="text-base">
               group assessment project using the Google Map API, with a solid
               toolbox of TypeScript, React, Axios, Bootstrap, Firebase Auth,

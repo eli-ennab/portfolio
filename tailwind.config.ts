@@ -13,6 +13,9 @@ const config: Config = {
         gray: '#979795',
         white: '#fcfffb',
         orange: '#ff5733',
+        blue: '#81a1c1',
+        turquoise: '#4d9dbb',
+        green: '#97af5f',
       },
     letterSpacing: {
       tightest: '-.075em',

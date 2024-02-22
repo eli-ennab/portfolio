@@ -14,7 +14,7 @@ export function SideLinks() {
           <Link
             href="https://fed22m-exjobb-eli-ennab.vercel.app/sv"
             target="_blank"
-            className="transition ease-in-out delay-150 hover:text-orange dark:text-gray group-hover:dark:text-white"
+            className="transition ease-in-out delay-150 hover:text-orange dark:text-white group-hover:dark:text-orange"
           >
             nioosha shams
           </Link>
@@ -30,7 +30,7 @@ export function SideLinks() {
           <Link
             href="https://damoviedatabase.netlify.app/"
             target="_blank"
-            className="hover:text-orange dark:text-gray group-hover:dark:text-white"
+            className="hover:text-orange dark:text-white group-hover:dark:text-orange"
           >
             the movie database
           </Link>
@@ -45,7 +45,7 @@ export function SideLinks() {
           <Link
             href="https://hangrymap.netlify.app/"
             target="_blank"
-            className="hover:text-orange dark:text-gray group-hover:dark:text-white"
+            className="hover:text-orange dark:text-white group-hover:dark:text-orange"
           >
             hangry map
           </Link>

@@ -4,7 +4,7 @@ export function Background() {
   return (
     <svg className={styles.background}>
       <filter id="grainy">
-        <feTurbulence type="fractalNoise" baseFrequency="0.9" />
+        <feTurbulence type="fractalNoise" baseFrequency="0.7" />
         <feComposite operator="in" in2="SourceGraphic" result="monoNoise" />
       </filter>
       <path

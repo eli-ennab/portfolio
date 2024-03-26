@@ -32,7 +32,7 @@ export function Footer() {
   return (
     <div className="flex justify-start gap-8">
       <Link
-        href="/files/elina_ennab_resume.pdf"
+        href="/files/resume_elina_ennab.pdf"
         target="_blank"
         className="hover:dark:text-gray hover:text-gray"
       >

@@ -7,7 +7,7 @@ export function SideLink({ header, description, href }: TLink) {
       <Link
         href={href}
         target='_blank'
-        className='group-hover:text-orange dark:text-white group-hover:dark:text-kleinblue'
+        className='group-hover:text-orange dark:text-white'
       >
         {header}
       </Link>

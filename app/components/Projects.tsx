@@ -9,7 +9,7 @@ export function SideLinks() {
           projects
         </h2>
       </div>
-      <div className='flex flex-col text-2xl md:text-7xl gap-6'>
+      <div className='flex flex-col text-2xl md:text-5xl gap-6'>
         {projects.map((project, index) => (
           <SideLink
             key={index}

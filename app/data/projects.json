@@ -1,0 +1,22 @@
+[
+  {
+    "href": "https://fed22m-exjobb-eli-ennab.vercel.app/sv",
+    "header": "nioosha shams",
+    "description": "degree project and multilingual website integrated the headless cms Storyblok, TypeScript, React Next.js 14, Firebase Auth, Firebase Firestore and Vanilla Extract CSS"
+  },
+  {
+    "href": "https://damoviedatabase.netlify.app/",
+    "header": "the movie database",
+    "description": "assessment project fetching data from the TMDB database, written in TypeScript and React using Axios and Bootstrap"
+  },
+  {
+    "href": "https://hangrymap.netlify.app/",
+    "header": "hangry map",
+    "description": "group assessment project using the Google Map API, with a solid toolbox of TypeScript, React, Axios, Bootstrap, Firebase Auth, Firebase Firestore"
+  },
+  {
+    "href": "https://kill-the-hoff.netlify.app",
+    "header": "kill the hoff",
+    "description": "group assessment project using Websockets and MongoDB together with a solid toolbox of TypeScript, React, Axios and Bootstrap"
+  }
+]

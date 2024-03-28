@@ -1,5 +1,5 @@
-import projects from '@/app/data/projects.json';
 import { SideLink } from '@/app/components/SideLink';
+import projects from '@/app/data/projects.json';
 
 export function SideLinks() {
   return (

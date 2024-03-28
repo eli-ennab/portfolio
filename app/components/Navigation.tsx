@@ -1,12 +1,13 @@
 import ThemeSwitcher from './ThemeSwitcher';
+import navigation from '@/app/data/navigation.json';
 
 export function Navigation() {
   return (
     <div className='flex justify-between'>
       <h1 className='text-black dark:text-gray'>
-        eli ennab<br></br>
+        {navigation[0].heading}<br />
         <span className='text-orange dark:text-white'>
-          front end developer based in Malmö, SWE
+        {navigation[0].subheading}
         </span>
       </h1>
       <div className='flex gap-6'>

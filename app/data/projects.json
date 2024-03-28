@@ -2,26 +2,26 @@
   {
     "href": "https://fed22m-exjobb-eli-ennab.vercel.app/",
     "header": "nioosha shams",
-    "description": "degree project and multilingual website integrated the headless cms Storyblok, TypeScript, React Next.js 14, Firebase Auth, Firebase Firestore and Vanilla Extract CSS"
+    "description": "degree project: multilingual website integrated with a headless CMS (Storyblok), TypeScript, React, Next.js 14, Firebase Auth, Firebase Firestore and Vanilla Extract CSS"
   },
   {
     "href": "https://damoviedatabase.netlify.app/",
     "header": "the movie database",
-    "description": "assignment project fetching data from the TMDB database, written in TypeScript and React using Axios and Bootstrap"
+    "description": "assignment project: fetching data from the TMDB database, written in TypeScript and React using Axios and Bootstrap"
   },
   {
     "href": "https://hangrymap.netlify.app/",
     "header": "hangry map",
-    "description": "group assignment project using the Google Map API, with a solid toolbox of TypeScript, React, Axios, Bootstrap, Firebase Auth, Firebase Firestore"
+    "description": "group assignment project: using the Google Map API, with a solid toolbox of TypeScript, React, Axios, Bootstrap, Firebase Auth, Firebase Firestore"
   },
   {
     "href": "https://kill-the-hoff.netlify.app/",
     "header": "kill the hoff",
-    "description": "group assignment project using Websockets and MongoDB together with a solid toolbox of TypeScript, React, Prisma and Bootstrap"
+    "description": "group assignment project: using Websockets and MongoDB together with a solid toolbox of TypeScript, React, Prisma and Bootstrap"
   },
   {
     "href": "https://sw-encyclopedia.netlify.app/",
     "header": "star wars encyclopedia",
-    "description": "assignment using React, TypeScript, React Router, Axios, Bootstrap/Bootstrap React, Sass. Component-based application with loading and error handling, simple pagination and search function to all the resources in the Star Wars API created by The Hive Resistance"
+    "description": "assignment project: using React, TypeScript, React Router, Axios, Bootstrap and Bootstrap React, SASS. Component-based application with loading and error handling, simple pagination and search function to all the resources in the Star Wars API created by The Hive Resistance"
   }
 ]

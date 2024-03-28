@@ -2,6 +2,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import footer from '@/app/data/footer.json';
 
 export function Footer() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,27 +32,14 @@ export function Footer() {
 
   return (
     <div className='flex justify-start gap-8'>
-      <Link
-        href='/files/resume_elina_ennab.pdf'
-        target='_blank'
-        className='hover:dark:text-gray hover:text-gray'
-      >
-        resume
-      </Link>
-      <Link
-        href='https://github.com/eli-ennab'
-        target='_blank'
-        className='hover:dark:text-gray hover:text-gray'
-      >
-        github
-      </Link>
-      <Link
-        href='https://www.linkedin.com/in/elina-ennab-13ba57249/'
-        target='_blank'
-        className='hover:dark:text-gray hover:text-gray'
-      >
-        linkedin
-      </Link>
+        {footer.map((link, index) => (
+          <Link
+            className='hover:dark:text-gray hover:text-gray'
+            href={link.href}
+            key={index}
+            target={link.target}
+          >{link.name}</Link>
+        ))}
       {isScrolled && <p onClick={scrollToTop}>up</p>}
     </div>
   );
